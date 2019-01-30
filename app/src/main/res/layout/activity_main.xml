@@ -72,8 +72,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="167dp"
-        android:layout_height="141dp"
+        android:layout_width="156dp"
+        android:layout_height="128dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"

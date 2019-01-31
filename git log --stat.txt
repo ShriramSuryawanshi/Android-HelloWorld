@@ -1,0 +1,67 @@
+commit dbccf7407c76d4eb74e69f0bf855f4a991c7cf8c (HEAD -> master, origin/master)
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Wed Jan 30 18:27:39 2019 -0500
+
+    Decrease button size on click to convey Bye and close app
+
+ README.md                                          |  13 ++++++++
+ Screenshot_1.png                                   | Bin 0 -> 166846 bytes
+ Screenshot_2.png                                   | Bin 0 -> 126075 bytes
+ Screenshot_3.png                                   | Bin 0 -> 43592 bytes
+ .../java/com/example/helloworld/MainActivity.java  |  37 +++++++++++++++++----
+ app/src/main/res/layout/activity_main.xml          |   4 +--
+ 6 files changed, 46 insertions(+), 8 deletions(-)
+
+commit 67d102cb3cc92aab70d1204439a8cee6335af331
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Tue Jan 29 23:49:57 2019 -0500
+
+    random Hi5 game
+
+ .../java/com/example/helloworld/MainActivity.java  | 51 +++++++++++++++++-----
+ app/src/main/res/layout/activity_main.xml          |  9 ++--
+ 2 files changed, 42 insertions(+), 18 deletions(-)
+
+commit 2cfa8c9de059dbb3fcaca7ab79c8569261227147
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Tue Jan 29 11:34:51 2019 -0500
+
+    Say Hello back
+
+ app/build.gradle                                   |  3 ++-
+ .../java/com/example/helloworld/MainActivity.java  | 28 ++++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  1 +
+ 3 files changed, 31 insertions(+), 1 deletion(-)
+
+commit 13c06c083459fe6cbcc5f1264591a7c8e0d1ec43
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Mon Jan 28 12:02:04 2019 -0500
+
+    UI Design Page1 v1.1
+
+ .idea/misc.xml                                     |   2 +-
+ app/src/main/AndroidManifest.xml                   |   9 +-
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  12 +-
+ app/src/main/res/drawable/android_button.png       | Bin 0 -> 43841 bytes
+ .../main/res/drawable/ic_launcher_background.xml   | 236 +++++++++++++++------
+ app/src/main/res/layout/activity_main.xml          |  83 ++++++--
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   4 +-
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   4 +-
+ app/src/main/res/values/colors.xml                 |   2 +-
+ app/src/main/res/values/strings.xml                |   4 +
+ gradle.properties                                  |   4 -
+ 11 files changed, 256 insertions(+), 104 deletions(-)
+
+commit 6bc350723439bd11b2630ae3fbd8d9e131bbbc2e
+Merge: 89f5acf f0a82eb
+Author: ShriramSuryawanshi <shriram.a.suryawanshi@gmail.com>
+Date:   Mon Jan 28 11:59:07 2019 -0500
+
+    Merge branch 'master' of https://github.com/ShriramSuryawanshi/Android-HelloWorld
+    app:layout_constraintTop_
+
+commit f0a82eb510460a5eed5830cc0232100eb532b3e0
+Author: Shriram Suryawanshi <45048811+ShriramSuryawanshi@users.noreply.github.com>
+Date:   Mon Jan 28 11:58:14 2019 -0500
+
+    removing Readme
